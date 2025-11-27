@@ -1,4 +1,5 @@
-/data/
+
+data/*
 /pyproject.toml
 /.python-version
 
