@@ -1,0 +1,30 @@
+﻿Micah John
+1. Parts of the code that involved GenAI assistance
+
+
+I used Generative AI tools while working on parts of the data processing and modelling code, mainly during development and debugging.  GenAI was used when working on functions related to the spatial analysis in the main notebook, especially:
+* analyze_year(...)
+* compute_normalised_effects(...)
+
+
+The tools were mainly used to help debug issues, reason about the setup of spatial models, and understand why certain parts of the code produced empty, unstable, or unexpected results. GenAI was also used to suggest possible fixes or alternative implementations when parts of the code were not behaving as expected. All final code was manually reviewed, adapted, and tested by me. I did not copy code blindly and only kept suggestions that I fully understood and could verify.
+
+
+2. Experience using Generative AI tools
+
+
+I used both ChatGPT and Gemini as support tools during this project. I mainly used them for debugging and for getting suggestions when I was unsure why certain results or errors occurred. Using two different tools helped me cross-reference answers and avoid relying on a single source. My prompting was mostly iterative and problem-focused. I asked specific questions about errors, model behaviour, or why outputs did not match my expectations. Often, the tools suggested different approaches or explanations, which helped me think more critically about the problem rather than just applying a single solution.
+
+
+* To decide whether suggestions were good or not, I:
+* checked whether ChatGPT and Gemini gave consistent or compatible explanations
+* tested suggested changes step by step in the code
+* inspected intermediate outputs to see if values became more stable or realistic
+* compared results across different model specifications and years
+* checked whether the results made sense given the data and the theory discussed in the course
+
+
+If suggestions led to unrealistic values, unstable models, or results that did not make substantive sense, I discarded them. The goal was to get results that were both technically correct and reasonable in the context of Dutch provincial crime and voting data.
+
+
+Overall, GenAI helped me speed up debugging and explore possible fixes, but I remained fully responsible for the final code, design choices, and interpretation of the results.
